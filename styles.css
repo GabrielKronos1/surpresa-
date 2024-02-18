@@ -1,0 +1,54 @@
+body {
+  background-image: url(https://gifs.eco.br/wp-content/uploads/2022/08/gifs-de-anime-paisagem-0.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Mantém o fundo fixo enquanto a página é rolada */
+}
+#container {
+  text-align: center;
+  font-size: 40px;
+}
+
+#options {
+  display: inline-block;
+}
+
+span {
+  margin: 0 10px;
+  cursor: pointer;
+  font-size: 40px; /* Aumenta o tamanho da fonte em 80 pixels */
+}
+
+#gif-container {
+  margin-top: 60px;
+}
+/* Adicionando regras de mídia para dispositivos móveis */
+@media screen and (max-width: 600px) {
+  span {
+    font-size: 30px; /* Reduzindo o tamanho da fonte para dispositivos móveis */
+  }
+}
+/* iPhone X */
+@media only screen 
+  and (device-width: 375px) 
+  and (device-height: 812px) 
+  and (-webkit-device-pixel-ratio: 3) {
+    /* Adicione regras específicas para o iPhone X aqui, se necessário */
+}
+
+/* Samsung Galaxy S9 */
+@media only screen 
+  and (device-width: 360px) 
+  and (device-height: 740px) 
+  and (-webkit-device-pixel-ratio: 4) {
+    /* Adicione regras específicas para o Samsung Galaxy S9 aqui, se necessário */
+}
+
+/* iPhone SE */
+@media only screen 
+  and (device-width: 320px) 
+  and (device-height: 568px) 
+  and (-webkit-device-pixel-ratio: 2) {
+    /* Adicione regras específicas para o iPhone SE aqui, se necessário */
+}
